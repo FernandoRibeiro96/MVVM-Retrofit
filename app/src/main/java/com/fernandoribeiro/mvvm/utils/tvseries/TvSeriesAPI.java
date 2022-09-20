@@ -1,5 +1,8 @@
 package com.fernandoribeiro.mvvm.utils.tvseries;
 
+import com.fernandoribeiro.mvvm.models.tvseries.TvSeriesModel;
+import com.fernandoribeiro.mvvm.response.tvseries.TvSeriesSearchResponse;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
@@ -20,7 +23,7 @@ public interface TvSeriesAPI {
             @Query("page") int page
     );
     @GET("/3/tv/{tvSeries_id}?")
-    Call<TvSerieModel> getTvSeries(
+    Call<TvSeriesModel> getTvSeries(
             @Query("api_key") String key,
             @Path("tvSeries_id") int tvSeries_id
     );
