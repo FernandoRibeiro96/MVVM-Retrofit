@@ -254,7 +254,7 @@ public class MovieApiClient {
         }, 3000, TimeUnit.MILLISECONDS);
     }
 
-    private void searchMoviesPop(int pageNumber){
+    public void searchMoviesPop(int pageNumber){
         if (mRetrieveMovieRunnablePop != null){
             mRetrieveMovieRunnablePop = null;
         }
@@ -269,7 +269,7 @@ public class MovieApiClient {
         },1000, TimeUnit.MILLISECONDS);
     }
 
-    private void searchMoviesPopPast(int year, int pageNumber, String language){
+    public void searchMoviesPopPast(int year, int pageNumber, String language){
         if (mRetrieveMovieRunnablePopPast != null){
             mRetrieveMovieRunnablePopPast = null;
         }
