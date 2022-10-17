@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/krato/AndroidStudioProjects/MVVM/app/src/main/res/drawable/ic_tv_series.xml" value="0.329" />
         <entry key="..\:/Users/krato/AndroidStudioProjects/MVVM/app/src/main/res/layout/activity_main.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/krato/AndroidStudioProjects/MVVM/app/src/main/res/menu/bottom_nav_menu.xml" value="0.38697916666666665" />
       </map>
     </option>
   </component>
